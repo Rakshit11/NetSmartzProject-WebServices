@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.webservices.restapi.testcases.FunctionalityTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.691 s <<< FAILURE! - in com.webservices.restapi.testcases.FunctionalityTest
+toUpdate  Time elapsed: 0.021 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.webservices.restapi.testcases.FunctionalityTest.toUpdate(FunctionalityTest.java:59)
+
+testDelete  Time elapsed: 0.016 s  <<< ERROR!
+org.springframework.dao.EmptyResultDataAccessException: No class com.webservices.restapi.entity.FoodProduct entity with id 3 exists!
+	at com.webservices.restapi.testcases.FunctionalityTest.testDelete(FunctionalityTest.java:69)
+
